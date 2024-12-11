@@ -1,0 +1,113 @@
+:root {
+    --navy: #000080;
+    --white: #ffffff;
+    --cream: #B3C8CF;
+}
+
+.navy {
+    background-color: var(--navy)
+}
+
+.cream {
+    background-color: var(--cream);
+}
+
+.blue-sky {
+    /* background-color: #699be0; */
+    background-color: var(--white);
+}
+
+.textColor {
+    color: var(--white);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin: -20px;
+    margin-left: 5px;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+#bg-plane {
+    background-image: url("/src/img/Dark\ Blue\ Simple\ Dark\ Tech\ and\ Gaming\ Bio-Link\ Website.png");
+    height: 45em;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (min-device-width: 381px) and (max-device-width: 968px) {
+    #footer {
+        margin-top: 13vh;
+    }
+  }
+
+div h1, p {
+    color: white;
+    display: flex;
+    font-size: medium;
+    text-align: justify;
+}
+
+.sub-title1 {
+display: flex; 
+flex-direction: column; 
+margin-top: 30em;
+padding-left: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+span p {
+    text-wrap: wrap;
+    width: 22rem;
+}
+
+.vertical-scroll {
+    overflow: scroll;
+    text-overflow: ellipsis;
+    z-index: 3;
+}
+
+.hide-overflow {
+    overflow: hidden;
+}
+
+.container-card {
+    padding: 10px;
+}
+
+.card--material {
+    padding: 10em;
+}
+
+.flex {
+    display: flex;
+    flex: 2;
+    text-align: justify;
+    padding: 10px;
+}
+
+.font-center {
+    text-align: center;
+}
+
+ol li {
+    padding: 10px;
+}
+
+.op-80 {
+    opacity: 80%;
+}

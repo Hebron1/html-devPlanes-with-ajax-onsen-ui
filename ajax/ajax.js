@@ -22,6 +22,10 @@ $(() => {
             $('.head-quarter3').text(`${data[index4].head_quaters}`);
             $('.head-quarter4').text(`${data[index5].head_quaters}`);
             $('.head-quarter5').text(`${data[index6].head_quaters}`);
+
+            $('#one').text(`${data[index1].country}`)
+            $('#two').text(`${data[index3].country}`)
+            $('#three').text(`${data[index6].country}`)
         },
         error: (error) => {
             console.error('Error fetching data:', error)

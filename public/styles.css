@@ -36,11 +36,7 @@
 }
 
 #bg-plane {
-<<<<<<< HEAD
-    background-image: url("/assets/img/plane-header.png");
-=======
-    background-image: url("src/img/plane-header.png");
->>>>>>> 6388318c8b194905c7bef2912fb4875dbe29384f
+    background-image: url("../assets/img/plane-header.png");
     height: 45em;
     width: auto;
     padding: 0;
